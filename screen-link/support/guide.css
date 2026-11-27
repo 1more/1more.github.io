@@ -70,7 +70,7 @@ a:focus-visible { outline: 3px solid #235e9a; outline-offset: 5px; }
 
 .hero h1 {
   margin-block: 12px 20px;
-  font-size: clamp(2.3rem, 7vw, 5rem);
+  font-size: clamp(2.1rem, 5.7vw, 4.15rem);
 }
 
 .hero p:not(.app-name) { max-width: 30rem; font-size: clamp(1rem, 1.8vw, 1.15rem); }
@@ -181,6 +181,10 @@ figcaption { margin-top: 7px; color: var(--muted); font-size: .83rem; }
   border-radius: 16px;
   background: white;
 }
+
+.questions { margin-top: clamp(46px, 8vw, 90px); }
+.questions > div { margin-top: 24px; }
+.questions p { max-width: 44rem; margin-top: 8px; }
 
 .site-footer {
   display: flex;

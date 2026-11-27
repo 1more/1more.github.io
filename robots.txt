@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1more.github.io/screen-link/sitemap.xml
